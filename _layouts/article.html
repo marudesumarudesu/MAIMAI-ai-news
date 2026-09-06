@@ -3,37 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#07111f">
   <title>{{ page.title | escape }} | MAIMAI AI NEWS</title>
   <meta name="description" content="{{ page.title | escape }}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
-<body class="article-page">
-<div id="readingProgress" class="reading-progress" aria-hidden="true"></div>
+<body>
 <header class="site-header">
   <div class="wrap nav">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <span class="brand-mark">M</span>
-      <span class="brand-copy"><strong>MAIMAI AI NEWS</strong><small>AI ENGINEER EDITION</small></span>
+      <span class="brand-mark">M</span><span>MAIMAI AI NEWS</span>
     </a>
-    <nav class="nav-links"><a href="{{ '/' | relative_url }}#articles">記事</a><a href="{{ '/about.html' | relative_url }}">MAIMAI</a></nav>
+    <nav>
+      <a href="{{ '/' | relative_url }}">記事</a>
+      <a href="{{ '/about.html' | relative_url }}">運営者</a>
+    </nav>
   </div>
 </header>
-<main class="wrap article-shell">
-  <div class="article-topline"><a class="back-link" href="{{ '/' | relative_url }}#articles">← 記事一覧へ戻る</a></div>
+
+<main class="article-shell">
+  <div class="article-topline">
+    <a class="back-link" href="{{ '/' | relative_url }}">← 記事一覧へ</a>
+  </div>
   <article class="article">
     <div class="article-meta">
       {% if page.date %}<span>{{ page.date | date: "%Y-%m-%d" }}</span>{% endif %}
-      {% if page.updated %}<span>UPDATED {{ page.updated | date: "%Y-%m-%d" }}</span>{% endif %}
       {% if page.company %}<span>{{ page.company }}</span>{% endif %}
       {% if page.category %}<span>{{ page.category }}</span>{% endif %}
-      {% if page.importance %}<span>IMPORTANCE {{ page.importance }}</span>{% endif %}
+      {% if page.importance %}<span>重要度 {{ page.importance }} / 100</span>{% endif %}
     </div>
-    <p class="article-author">BY {{ page.author | default: "AIエンジニア MAIMAI" }}</p>
+    <p class="article-author">{{ page.author | default: "AIエンジニア MAIMAI" }}</p>
     {{ content }}
   </article>
 </main>
-<footer><div class="wrap footer-grid"><div><strong>MAIMAI AI NEWS</strong><p>GENERATIVE AI, EXPLAINED.</p></div><div class="footer-right"><p>当サイトはアフィリエイト広告を利用する場合があります。</p><p>© MAIMAI AI NEWS</p></div></div></footer>
-<script>(function(){const bar=document.getElementById('readingProgress');function update(){const max=document.documentElement.scrollHeight-window.innerHeight;bar.style.width=(max>0?(window.scrollY/max)*100:0)+'%'}addEventListener('scroll',update,{passive:true});update()})();</script>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>MAIMAI AI NEWS</span>
+    <span>© MAIMAI AI NEWS</span>
+  </div>
+</footer>
 </body>
 </html>
