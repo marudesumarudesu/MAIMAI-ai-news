@@ -1,0 +1,11 @@
+{
+  "site_name": "MAIMAI AI NEWS",
+  "tagline": "AIの最新情報を、超わかりやすく。",
+  "operator": "AIエンジニア MAIMAI",
+  "language": "ja",
+  "content_policy": {
+    "primary_sources_first": true,
+    "separate_fact_and_opinion": true,
+    "affiliate_disclosure_required": true
+  }
+}
