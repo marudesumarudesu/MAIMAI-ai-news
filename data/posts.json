@@ -198,6 +198,15 @@
         "url":  "content/posts/2026-09-06_notion-ai-guide.html"
     },
     {
+        "title":  "OpenAIが「AI研究インターン到達」を公表｜研究者1人日あたり3.1 agent-workdays、2028年に自動AI研究者を目標",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "OpenAI",
+        "importance":  "98",
+        "url":  "content/posts/2026-09-06_openai-automated-research-intern.html"
+    },
+    {
         "title":  "Perplexityとは？2026年最新版｜ChatGPTとの違い、Pro・Max、調査で強い理由",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
@@ -295,6 +304,15 @@
         "company":  "NVIDIA / Hugging Face",
         "importance":  "98",
         "url":  "content/posts/2026-09-03_nvidia-acquire-hugging-face.html"
+    },
+    {
+        "title":  "Gemini 3.8 Flash登場｜3.7と同価格でコーディング・AIエージェント性能を強化。APIと日本ユーザーへの影響",
+        "date":  "2026-09-02",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Google / Google DeepMind",
+        "importance":  "96",
+        "url":  "content/posts/2026-09-02_gemini-3-8-flash.html"
     },
     {
         "title":  "Claude Fable 5.1登場｜長時間エージェントとコーディング強化、cache read 75%値下げの意味",
