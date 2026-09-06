@@ -1,5 +1,17 @@
 ﻿$ErrorActionPreference = "Stop"
 
+$TaskName = "YDK MAIMAI AI News GitHub Sync"
+$ScriptPath = Join-Path $PSScriptRoot "push_to_github.ps1"
+
+# If Google Drive for desktop has not materialized the helper script locally yet,
+# recreate it in the same synced folder.
+if (-not (Test-Path -LiteralPath $ScriptPath)) {
+    Write-Host "push_to_github.ps1 is not available locally yet."
+    Write-Host "Recreating it in this scripts folder..."
+
+    $PushScript = @'
+$ErrorActionPreference = "Stop"
+
 # Repository root = parent folder of "scripts"
 $RepoPath = Split-Path $PSScriptRoot -Parent
 $PostsDir = Join-Path $RepoPath "content\posts"
@@ -114,3 +126,65 @@ git push origin $branch
 if ($LASTEXITCODE -ne 0) { throw "git push failed." }
 
 Write-Host "GitHub push completed on branch: $branch at $stamp"
+
+'@
+
+    $Utf8Bom = New-Object System.Text.UTF8Encoding($true)
+    [System.IO.File]::WriteAllText($ScriptPath, $PushScript, $Utf8Bom)
+
+    if (-not (Test-Path -LiteralPath $ScriptPath)) {
+        throw "Could not create push_to_github.ps1: $ScriptPath"
+    }
+
+    Write-Host "Created: $ScriptPath"
+}
+
+$Schtasks = Join-Path $env:WINDIR "System32\schtasks.exe"
+if (-not (Test-Path -LiteralPath $Schtasks)) {
+    throw "schtasks.exe was not found: $Schtasks"
+}
+
+# /F overwrites an existing task, so there is no delete step.
+# /SC MINUTE /MO 15 repeats every 15 minutes indefinitely.
+$TaskCommand = 'powershell.exe -NoProfile -ExecutionPolicy Bypass -File "' + $ScriptPath + '"'
+$Arguments = '/Create /TN "' + $TaskName + '" /TR "' + $TaskCommand.Replace('"','\"') + '" /SC MINUTE /MO 15 /F'
+
+Write-Host ""
+Write-Host "Registering Windows Scheduled Task..."
+
+$proc = Start-Process `
+    -FilePath $Schtasks `
+    -ArgumentList $Arguments `
+    -Wait `
+    -PassThru `
+    -NoNewWindow
+
+if ($proc.ExitCode -ne 0) {
+    throw "Task registration failed. schtasks exit code: $($proc.ExitCode)"
+}
+
+Write-Host ""
+Write-Host "Scheduled task registered successfully."
+Write-Host "Task name : $TaskName"
+Write-Host "Interval  : every 15 minutes"
+Write-Host "Script    : $ScriptPath"
+
+# Verify it exists.
+$verifyArgs = '/Query /TN "' + $TaskName + '"'
+$verify = Start-Process `
+    -FilePath $Schtasks `
+    -ArgumentList $verifyArgs `
+    -Wait `
+    -PassThru `
+    -NoNewWindow
+
+if ($verify.ExitCode -ne 0) {
+    throw "The task could not be verified after registration."
+}
+
+Write-Host ""
+Write-Host "Running one GitHub sync test now..."
+& powershell.exe -NoProfile -ExecutionPolicy Bypass -File $ScriptPath
+
+Write-Host ""
+Write-Host "Setup finished."

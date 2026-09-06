@@ -1,0 +1,10 @@
+title: "MAIMAI AI NEWS"
+description: "AIエンジニアMAIMAIが最新AI情報を超わかりやすく解説"
+markdown: kramdown
+encoding: UTF-8
+
+defaults:
+  - scope:
+      path: "content/posts"
+    values:
+      layout: "article"

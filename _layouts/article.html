@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} | MAIMAI AI NEWS</title>
+  <meta name="description" content="{{ page.title | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="{{ '/' | relative_url }}">MAIMAI AI NEWS</a>
+    <nav>
+      <a href="{{ '/' | relative_url }}">最新記事</a>
+      <a href="{{ '/about.html' | relative_url }}">運営者</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap article-shell">
+  <article class="article">
+    <div class="article-meta">
+      {% if page.date %}<span>{{ page.date | date: "%Y-%m-%d" }}</span>{% endif %}
+      {% if page.company %}<span>{{ page.company }}</span>{% endif %}
+      {% if page.category %}<span>{{ page.category }}</span>{% endif %}
+    </div>
+    <p class="article-author">{{ page.author | default: "AIエンジニア MAIMAI" }}</p>
+    {{ content }}
+  </article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>当サイトはアフィリエイト広告を利用する場合があります。</p>
+    <p>© MAIMAI AI NEWS</p>
+  </div>
+</footer>
+</body>
+</html>
