@@ -1,9 +1,308 @@
-{
-    "title":  "GPT-6 Astra登場。何が変わったのか超わかりやすく解説",
-    "date":  "2026-09-06",
-    "author":  "AIエンジニア MAIMAI",
-    "category":  "AIニュース",
-    "company":  "OpenAI",
-    "importance":  "95",
-    "url":  "content/posts/2026-09-06_gpt-6-astra.html"
-}
+[
+    {
+        "title":  "Adobe Fireflyとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI画像・動画",
+        "company":  "Adobe",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_adobe-firefly-guide.html"
+    },
+    {
+        "title":  "Bolt.newとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIアプリ開発",
+        "company":  "StackBlitz",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_bolt-new-guide.html"
+    },
+    {
+        "title":  "Canva AI / Magic Studioとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIデザイン",
+        "company":  "Canva",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_canva-ai-guide.html"
+    },
+    {
+        "title":  "ChatGPTとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "会話AI",
+        "company":  "OpenAI",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_chatgpt-guide.html"
+    },
+    {
+        "title":  "Claudeとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "会話AI",
+        "company":  "Anthropic",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_claude-guide.html"
+    },
+    {
+        "title":  "Cursorとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIコーディング",
+        "company":  "Anysphere",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_cursor-guide.html"
+    },
+    {
+        "title":  "ElevenLabsとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI音声",
+        "company":  "ElevenLabs",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_elevenlabs-guide.html"
+    },
+    {
+        "title":  "Gammaとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI資料作成",
+        "company":  "Gamma",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_gamma-guide.html"
+    },
+    {
+        "title":  "Geminiとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "会話AI",
+        "company":  "Google",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_gemini-guide.html"
+    },
+    {
+        "title":  "GitHub Copilotとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIコーディング",
+        "company":  "GitHub",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_github-copilot-guide.html"
+    },
+    {
+        "title":  "GPT-6 Astra登場。何が変わったのか超わかりやすく解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "OpenAI",
+        "importance":  "95",
+        "url":  "content/posts/2026-09-06_gpt-6-astra.html"
+    },
+    {
+        "title":  "Grokとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "会話AI",
+        "company":  "SpaceXAI",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_grok-guide.html"
+    },
+    {
+        "title":  "HeyGenとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI動画",
+        "company":  "HeyGen",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_heygen-guide.html"
+    },
+    {
+        "title":  "Ideogramとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI画像",
+        "company":  "Ideogram",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_ideogram-guide.html"
+    },
+    {
+        "title":  "Leonardo AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI画像",
+        "company":  "Leonardo.Ai",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_leonardo-ai-guide.html"
+    },
+    {
+        "title":  "Lovableとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIアプリ開発",
+        "company":  "Lovable",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_lovable-guide.html"
+    },
+    {
+        "title":  "Meta AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "会話AI",
+        "company":  "Meta",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_meta-ai-guide.html"
+    },
+    {
+        "title":  "Microsoft Copilotとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "会話AI",
+        "company":  "Microsoft",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_microsoft-copilot-guide.html"
+    },
+    {
+        "title":  "Midjourneyとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI画像",
+        "company":  "Midjourney",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_midjourney-guide.html"
+    },
+    {
+        "title":  "Mistral Vibe（旧Le Chat）とは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "会話AI",
+        "company":  "Mistral AI",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_mistral-vibe-guide.html"
+    },
+    {
+        "title":  "Napkin AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI図解",
+        "company":  "Napkin AI",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_napkin-ai-guide.html"
+    },
+    {
+        "title":  "NotebookLMとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI資料整理",
+        "company":  "Google",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_notebooklm-guide.html"
+    },
+    {
+        "title":  "Notion AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI仕事術",
+        "company":  "Notion",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_notion-ai-guide.html"
+    },
+    {
+        "title":  "Perplexityとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI検索",
+        "company":  "Perplexity",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_perplexity-guide.html"
+    },
+    {
+        "title":  "Pikaとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI動画",
+        "company":  "Pika",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_pika-guide.html"
+    },
+    {
+        "title":  "Replit Agentとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIアプリ開発",
+        "company":  "Replit",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_replit-agent-guide.html"
+    },
+    {
+        "title":  "Runwayとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI動画",
+        "company":  "Runway",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_runway-guide.html"
+    },
+    {
+        "title":  "Sunoとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI音楽",
+        "company":  "Suno",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_suno-guide.html"
+    },
+    {
+        "title":  "Synthesiaとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI動画",
+        "company":  "Synthesia",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_synthesia-guide.html"
+    },
+    {
+        "title":  "Udioとは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AI音楽",
+        "company":  "Udio",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_udio-guide.html"
+    },
+    {
+        "title":  "v0とは？できること・向いている人・使い方を初心者向けに解説",
+        "date":  "2026-09-06",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIアプリ開発",
+        "company":  "Vercel",
+        "importance":  "80",
+        "url":  "content/posts/2026-09-06_v0-guide.html"
+    },
+    {
+        "title":  "ThreadsでMeta AIが日本でも利用可能に。投稿から直接AIへ質問できる",
+        "date":  "2026-09-04",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Meta",
+        "importance":  "91",
+        "url":  "content/posts/2026-09-04_threads-meta-ai-japan.html"
+    },
+    {
+        "title":  "Claude Fable 5.1登場。長時間のコーディングと知識仕事をさらに自動化",
+        "date":  "2026-09-01",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Anthropic",
+        "importance":  "96",
+        "url":  "content/posts/2026-09-01_claude-fable-5-1.html"
+    },
+    {
+        "title":  "MicrosoftのAIエージェントに「人間の承認」が追加へ。勝手な送信や決済を防ぐ仕組み",
+        "date":  "2026-09-01",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Microsoft",
+        "importance":  "92",
+        "url":  "content/posts/2026-09-01_copilot-studio-human-approval.html"
+    }
+]

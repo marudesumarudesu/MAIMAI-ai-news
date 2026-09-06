@@ -94,7 +94,7 @@ $posts = $posts | Sort-Object `
     }; Descending = $true}, `
     @{Expression = "title"; Descending = $false}
 
-$json = @($posts) | ConvertTo-Json -Depth 5
+$json = ConvertTo-Json -InputObject @($posts) -Depth 5
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText($PostsJson, $json, $utf8NoBom)
 
