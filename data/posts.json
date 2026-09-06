@@ -1,29 +1,29 @@
 [
     {
-        "title":  "Adobe Fireflyとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Adobe Fireflyとは？2026年最新版｜画像・動画・音声、Standard/Pro料金と商用利用の考え方",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI画像・動画",
         "company":  "Adobe",
-        "importance":  "80",
+        "importance":  "94",
         "url":  "content/posts/2026-09-06_adobe-firefly-guide.html"
     },
     {
-        "title":  "Bolt.newとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Bolt.newとは？2026年最新版｜Free 100万token、Pro 1000万token、Lovable/v0との違い",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIアプリ開発",
         "company":  "StackBlitz",
-        "importance":  "80",
+        "importance":  "92",
         "url":  "content/posts/2026-09-06_bolt-new-guide.html"
     },
     {
-        "title":  "Canva AI / Magic Studioとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Canva AIとは？2026年最新版｜AI 2.0、Magic Studio、Pro料金と「完成デザインまで」の強み",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIデザイン",
         "company":  "Canva",
-        "importance":  "80",
+        "importance":  "95",
         "url":  "content/posts/2026-09-06_canva-ai-guide.html"
     },
     {
@@ -54,21 +54,21 @@
         "url":  "content/posts/2026-09-06_cursor-guide.html"
     },
     {
-        "title":  "ElevenLabsとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "ElevenLabsとは？2026年最新版｜無料1万credits、Voice Clone、74言語と料金を徹底整理",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI音声",
         "company":  "ElevenLabs",
-        "importance":  "80",
+        "importance":  "95",
         "url":  "content/posts/2026-09-06_elevenlabs-guide.html"
     },
     {
-        "title":  "Gammaとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Gammaとは？2026年最新版｜無料10枚、Plus最大100枚、PowerPointとの使い分け",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI資料作成",
         "company":  "Gamma",
-        "importance":  "80",
+        "importance":  "92",
         "url":  "content/posts/2026-09-06_gamma-guide.html"
     },
     {
@@ -90,15 +90,6 @@
         "url":  "content/posts/2026-09-06_github-copilot-guide.html"
     },
     {
-        "title":  "GPT-6 Astra登場。何が変わったのか超わかりやすく解説",
-        "date":  "2026-09-06",
-        "author":  "AIエンジニア MAIMAI",
-        "category":  "AIニュース",
-        "company":  "OpenAI",
-        "importance":  "95",
-        "url":  "content/posts/2026-09-06_gpt-6-astra.html"
-    },
-    {
         "title":  "Grokとは？2026年最新版｜無料・SuperGrok・Build・X検索まで何ができる？",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
@@ -108,39 +99,39 @@
         "url":  "content/posts/2026-09-06_grok-guide.html"
     },
     {
-        "title":  "HeyGenとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "HeyGenとは？2026年最新版｜無料3本、Creator $29、4K ProとAIアバター動画の使い分け",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI動画",
         "company":  "HeyGen",
-        "importance":  "80",
+        "importance":  "93",
         "url":  "content/posts/2026-09-06_heygen-guide.html"
     },
     {
-        "title":  "Ideogramとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Ideogramとは？2026年最新版｜文字入り画像に強い理由、Plus/Pro料金とMidjourney比較",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI画像",
         "company":  "Ideogram",
-        "importance":  "80",
+        "importance":  "90",
         "url":  "content/posts/2026-09-06_ideogram-guide.html"
     },
     {
-        "title":  "Leonardo AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Leonardo AIとは？2026年最新版｜無料150token/日、Essential〜Ultimateと画像・動画制作",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI画像",
         "company":  "Leonardo.Ai",
-        "importance":  "80",
+        "importance":  "91",
         "url":  "content/posts/2026-09-06_leonardo-ai-guide.html"
     },
     {
-        "title":  "Lovableとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Lovableとは？2026年最新版｜無料枠、Credits、Cloudまで「非エンジニアでも作れる」の実態",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIアプリ開発",
         "company":  "Lovable",
-        "importance":  "80",
+        "importance":  "94",
         "url":  "content/posts/2026-09-06_lovable-guide.html"
     },
     {
@@ -162,12 +153,12 @@
         "url":  "content/posts/2026-09-06_microsoft-copilot-guide.html"
     },
     {
-        "title":  "Midjourneyとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Midjourneyとは？2026年最新版｜Basic・Standard・Pro・Mega、画像/動画の料金と選び方",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI画像",
         "company":  "Midjourney",
-        "importance":  "80",
+        "importance":  "93",
         "url":  "content/posts/2026-09-06_midjourney-guide.html"
     },
     {
@@ -180,12 +171,12 @@
         "url":  "content/posts/2026-09-06_mistral-vibe-guide.html"
     },
     {
-        "title":  "Napkin AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Napkin AIとは？2026年最新版｜文章→図解、無料500credits/週、Plus/Pro料金を解説",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI図解",
         "company":  "Napkin AI",
-        "importance":  "80",
+        "importance":  "91",
         "url":  "content/posts/2026-09-06_napkin-ai-guide.html"
     },
     {
@@ -216,12 +207,12 @@
         "url":  "content/posts/2026-09-06_perplexity-guide.html"
     },
     {
-        "title":  "Pikaとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Pikaとは？2026年最新版｜Standard $10、Pro $35、Pika 2.5と短尺AI動画の使い方",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI動画",
         "company":  "Pika",
-        "importance":  "80",
+        "importance":  "88",
         "url":  "content/posts/2026-09-06_pika-guide.html"
     },
     {
@@ -234,39 +225,39 @@
         "url":  "content/posts/2026-09-06_replit-agent-guide.html"
     },
     {
-        "title":  "Runwayとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Runwayとは？2026年最新版｜Unlimited廃止→Max、料金・credits・4Kまで実務向けに解説",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI動画",
         "company":  "Runway",
-        "importance":  "80",
+        "importance":  "94",
         "url":  "content/posts/2026-09-06_runway-guide.html"
     },
     {
-        "title":  "Sunoとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Sunoとは？2026年最新版｜無料版は商用不可、Pro/Premierとv5.5・ダウンロード制限を解説",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI音楽",
         "company":  "Suno",
-        "importance":  "80",
+        "importance":  "94",
         "url":  "content/posts/2026-09-06_suno-guide.html"
     },
     {
-        "title":  "Synthesiaとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Synthesiaとは？2026年最新版｜無料10分、Starter/Creatorと企業研修で強い理由",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI動画",
         "company":  "Synthesia",
-        "importance":  "80",
+        "importance":  "92",
         "url":  "content/posts/2026-09-06_synthesia-guide.html"
     },
     {
-        "title":  "Udioとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Udioとは？2026年最新版｜Standard/Proと重要注意点「現在ダウンロード無効」を解説",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI音楽",
         "company":  "Udio",
-        "importance":  "80",
+        "importance":  "86",
         "url":  "content/posts/2026-09-06_udio-guide.html"
     },
     {
@@ -279,7 +270,7 @@
         "url":  "content/posts/2026-09-06_v0-guide.html"
     },
     {
-        "title":  "ThreadsでMeta AIが日本でも利用可能に。投稿から直接AIへ質問できる",
+        "title":  "Threadsで@meta.aiが日本対応｜公開投稿からAIへ直接質問。便利だが「回答も公開」が最大の注意点",
         "date":  "2026-09-04",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIニュース",
@@ -288,30 +279,39 @@
         "url":  "content/posts/2026-09-04_threads-meta-ai-japan.html"
     },
     {
-        "title":  "NVIDIAがHugging Face買収で合意。オープンAI開発の中心地はどう変わる？",
+        "title":  "GPT-6 Astra登場｜1.05Mコンテキスト、API $10/$50、Plus以上へ段階展開。何が本当に変わった？",
+        "date":  "2026-09-03",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "OpenAI",
+        "importance":  "99",
+        "url":  "content/posts/2026-09-06_gpt-6-astra.html"
+    },
+    {
+        "title":  "NVIDIAがHugging Faceを約129.3億ドルで買収へ｜「NVIDIA GPU必須にはしない」と明言。その意味を整理",
         "date":  "2026-09-03",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIニュース",
         "company":  "NVIDIA / Hugging Face",
-        "importance":  "97",
+        "importance":  "98",
         "url":  "content/posts/2026-09-03_nvidia-acquire-hugging-face.html"
     },
     {
-        "title":  "Claude Fable 5.1登場。長時間のコーディングと知識仕事をさらに自動化",
+        "title":  "Claude Fable 5.1登場｜長時間エージェントとコーディング強化、cache read 75%値下げの意味",
         "date":  "2026-09-01",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIニュース",
         "company":  "Anthropic",
-        "importance":  "96",
+        "importance":  "97",
         "url":  "content/posts/2026-09-01_claude-fable-5-1.html"
     },
     {
-        "title":  "MicrosoftのAIエージェントに「人間の承認」が追加へ。勝手な送信や決済を防ぐ仕組み",
+        "title":  "Copilot Studioに人間承認｜メール送信・決済前にAIを止める「Human in the Loop」が標準機能へ",
         "date":  "2026-09-01",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIニュース",
         "company":  "Microsoft",
-        "importance":  "92",
+        "importance":  "94",
         "url":  "content/posts/2026-09-01_copilot-studio-human-approval.html"
     }
 ]
