@@ -27,30 +27,30 @@
         "url":  "content/posts/2026-09-06_canva-ai-guide.html"
     },
     {
-        "title":  "ChatGPTとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "ChatGPTとは？2026年最新版｜無料・Go・Plus・Proの違いと、仕事で本当に使える機能",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "会話AI",
         "company":  "OpenAI",
-        "importance":  "80",
+        "importance":  "98",
         "url":  "content/posts/2026-09-06_chatgpt-guide.html"
     },
     {
-        "title":  "Claudeとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Claudeとは？2026年最新版｜ChatGPTとの違い、Pro・Max、Claude Codeまで実務目線で解説",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "会話AI",
         "company":  "Anthropic",
-        "importance":  "80",
+        "importance":  "97",
         "url":  "content/posts/2026-09-06_claude-guide.html"
     },
     {
-        "title":  "Cursorとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Cursorとは？2026年最新版｜Pro・Pro+・Ultra、Cloud AgentsとGitHub Copilotとの違い",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIコーディング",
         "company":  "Anysphere",
-        "importance":  "80",
+        "importance":  "96",
         "url":  "content/posts/2026-09-06_cursor-guide.html"
     },
     {
@@ -72,21 +72,21 @@
         "url":  "content/posts/2026-09-06_gamma-guide.html"
     },
     {
-        "title":  "Geminiとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Geminiとは？2026年最新版｜Google AI Plus・Pro・UltraとChatGPTとの違い",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "会話AI",
         "company":  "Google",
-        "importance":  "80",
+        "importance":  "96",
         "url":  "content/posts/2026-09-06_gemini-guide.html"
     },
     {
-        "title":  "GitHub Copilotとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "GitHub Copilotとは？2026年最新版｜Free・Pro・Pro+とCloud agent、Claude Code/Codex連携",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIコーディング",
         "company":  "GitHub",
-        "importance":  "80",
+        "importance":  "96",
         "url":  "content/posts/2026-09-06_github-copilot-guide.html"
     },
     {
@@ -99,12 +99,12 @@
         "url":  "content/posts/2026-09-06_gpt-6-astra.html"
     },
     {
-        "title":  "Grokとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Grokとは？2026年最新版｜無料・SuperGrok・Build・X検索まで何ができる？",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "会話AI",
         "company":  "SpaceXAI",
-        "importance":  "80",
+        "importance":  "91",
         "url":  "content/posts/2026-09-06_grok-guide.html"
     },
     {
@@ -144,21 +144,21 @@
         "url":  "content/posts/2026-09-06_lovable-guide.html"
     },
     {
-        "title":  "Meta AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Meta AIとは？2026年最新版｜Instagram・Threads連携、タスク実行、Incognitoまで解説",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "会話AI",
         "company":  "Meta",
-        "importance":  "80",
+        "importance":  "90",
         "url":  "content/posts/2026-09-06_meta-ai-guide.html"
     },
     {
-        "title":  "Microsoft Copilotとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Microsoft Copilotとは？2026年最新版｜Word・Excel・Teamsで何ができる？導入前の注意点",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "会話AI",
         "company":  "Microsoft",
-        "importance":  "80",
+        "importance":  "94",
         "url":  "content/posts/2026-09-06_microsoft-copilot-guide.html"
     },
     {
@@ -171,12 +171,12 @@
         "url":  "content/posts/2026-09-06_midjourney-guide.html"
     },
     {
-        "title":  "Mistral Vibe（旧Le Chat）とは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Mistral Vibeとは？2026年最新版｜旧Le Chatから何が変わった？仕事とコードを1つのAIで",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "会話AI",
         "company":  "Mistral AI",
-        "importance":  "80",
+        "importance":  "88",
         "url":  "content/posts/2026-09-06_mistral-vibe-guide.html"
     },
     {
@@ -189,30 +189,30 @@
         "url":  "content/posts/2026-09-06_napkin-ai-guide.html"
     },
     {
-        "title":  "NotebookLMとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "NotebookLMとは？2026年最新版｜PDF・YouTube・資料を根拠に回答するAIの使い方",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI資料整理",
         "company":  "Google",
-        "importance":  "80",
+        "importance":  "96",
         "url":  "content/posts/2026-09-06_notebooklm-guide.html"
     },
     {
-        "title":  "Notion AIとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Notion AIとは？2026年最新版｜Agent・Meeting Notes・Enterprise Searchと料金を整理",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI仕事術",
         "company":  "Notion",
-        "importance":  "80",
+        "importance":  "93",
         "url":  "content/posts/2026-09-06_notion-ai-guide.html"
     },
     {
-        "title":  "Perplexityとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Perplexityとは？2026年最新版｜ChatGPTとの違い、Pro・Max、調査で強い理由",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AI検索",
         "company":  "Perplexity",
-        "importance":  "80",
+        "importance":  "95",
         "url":  "content/posts/2026-09-06_perplexity-guide.html"
     },
     {
@@ -225,12 +225,12 @@
         "url":  "content/posts/2026-09-06_pika-guide.html"
     },
     {
-        "title":  "Replit Agentとは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "Replit Agentとは？2026年最新版｜無料枠・Core・Proと「作って公開まで」の強み",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIアプリ開発",
         "company":  "Replit",
-        "importance":  "80",
+        "importance":  "92",
         "url":  "content/posts/2026-09-06_replit-agent-guide.html"
     },
     {
@@ -270,12 +270,12 @@
         "url":  "content/posts/2026-09-06_udio-guide.html"
     },
     {
-        "title":  "v0とは？できること・向いている人・使い方を初心者向けに解説",
+        "title":  "v0とは？2026年最新版｜無料・Plus・BusinessとVercel公開、GitHub連携の実力",
         "date":  "2026-09-06",
         "author":  "AIエンジニア MAIMAI",
         "category":  "AIアプリ開発",
         "company":  "Vercel",
-        "importance":  "80",
+        "importance":  "93",
         "url":  "content/posts/2026-09-06_v0-guide.html"
     },
     {
