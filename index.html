@@ -3,192 +3,306 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f7f5">
+  <meta name="theme-color" content="#f4f5f7">
   <title>MAIMAI AI NEWS | 生成AIを、使える知識に。</title>
   <meta name="description" content="AIエンジニアMAIMAIが、ChatGPT、Claude Code、Gemini、画像AI、動画AIなどの重要情報を実務目線でわかりやすく解説。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body>
-<header class="site-header">
-  <div class="wrap nav">
-    <a class="brand" href="./">
-      <span class="brand-mark">M</span>
-      <span>MAIMAI AI NEWS</span>
-    </a>
-    <nav>
-      <a href="#articles">記事</a>
-      <a href="./about.html">運営者</a>
-    </nav>
-  </div>
-</header>
+<body class="home-page">
+  <div class="page-noise" aria-hidden="true"></div>
 
-<main>
-  <section class="hero wrap">
-    <div>
-      <p class="eyebrow">AI ENGINEER MAIMAI</p>
-      <h1>生成AIを、使える知識に。</h1>
-      <p class="hero-copy">ChatGPT、Claude Code、Gemini、画像AI、動画AI。<br>新機能・料金・比較・実務での使い方まで、重要なものだけ整理します。</p>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./" aria-label="MAIMAI AI NEWS">
+        <span class="brand-line"></span>
+        <span class="brand-main">MAIMAI</span>
+        <span class="brand-sub">AI NEWS</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#articles">Articles</a>
+        <a href="./about.html">About</a>
+      </nav>
     </div>
-    <div class="hero-side">
-      <span id="totalCount">—</span>
-      <small>ARTICLES</small>
-    </div>
-  </section>
+  </header>
 
-  <section class="filters wrap">
-    <div class="filter-head">
-      <div>
-        <p class="eyebrow">BROWSE</p>
-        <h2>テーマから探す</h2>
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy reveal">
+        <p class="kicker">GENERATIVE AI / PRACTICAL INTELLIGENCE</p>
+        <h1>生成AIを、<br><span class="gradient-text">使える知識に。</span></h1>
+        <p class="hero-lead">
+          新機能、料金、比較、実務での使い方まで。<br>
+          AIエンジニア MAIMAIが、重要な情報だけを整理します。
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-action" href="#articles">最新記事を見る <span>↘</span></a>
+          <a class="text-action" href="./about.html">MAIMAIについて →</a>
+        </div>
+
+        <div class="hero-foot">
+          <span><strong id="totalCount">—</strong> ARTICLES</span>
+          <span>PRIMARY SOURCES FIRST</span>
+          <span>UPDATED DAILY</span>
+        </div>
       </div>
-      <label class="search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m1.35-5.65a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
-        <input id="searchInput" type="search" placeholder="記事を検索">
-      </label>
-    </div>
 
-    <div class="chips" id="topicFilters">
-      <button class="chip active" data-topic="all" type="button">すべて</button>
-      <button class="chip" data-topic="chatgpt" type="button">ChatGPT</button>
-      <button class="chip" data-topic="claude" type="button">Claude Code</button>
-      <button class="chip" data-topic="gemini" type="button">Gemini</button>
-      <button class="chip" data-topic="copilot" type="button">Copilot</button>
-      <button class="chip" data-topic="coding" type="button">コーディングAI</button>
-      <button class="chip" data-topic="image" type="button">画像AI</button>
-      <button class="chip" data-topic="video" type="button">動画AI</button>
-      <button class="chip" data-topic="voice" type="button">音声・音楽</button>
-      <button class="chip" data-topic="builder" type="button">AIアプリ開発</button>
-      <button class="chip" data-topic="news" type="button">最新ニュース</button>
-    </div>
-  </section>
+      <div class="hero-stage reveal" aria-hidden="true">
+        <div class="stage-grid"></div>
+        <div class="glow glow-a"></div>
+        <div class="glow glow-b"></div>
 
-  <section id="articles" class="articles wrap">
-    <div class="section-title-row">
-      <div>
-        <p class="eyebrow">ARTICLES</p>
-        <h2 id="resultTitle">すべての記事</h2>
+        <div class="floating-card card-a">
+          <span class="floating-label">MODEL</span>
+          <strong>ChatGPT</strong>
+          <small>最新モデル・料金・使い分け</small>
+        </div>
+        <div class="floating-card card-b">
+          <span class="floating-label">CODING</span>
+          <strong>Claude Code</strong>
+          <small>開発・Agent・実務運用</small>
+        </div>
+        <div class="floating-card card-c">
+          <span class="floating-label">RESEARCH</span>
+          <strong>Gemini</strong>
+          <small>Google AI / Deep Research</small>
+        </div>
+
+        <div class="signal-card">
+          <div class="signal-top">
+            <span>LIVE INDEX</span>
+            <span class="pulse-dot"></span>
+          </div>
+          <div class="signal-bars">
+            <i style="--h:38%"></i><i style="--h:62%"></i><i style="--h:47%"></i>
+            <i style="--h:78%"></i><i style="--h:55%"></i><i style="--h:88%"></i>
+            <i style="--h:66%"></i><i style="--h:94%"></i><i style="--h:72%"></i>
+          </div>
+          <div class="signal-bottom">
+            <strong>AI NEWS</strong>
+            <span>CURATED BY MAIMAI</span>
+          </div>
+        </div>
       </div>
-      <span class="count"><strong id="resultCount">—</strong>件</span>
-    </div>
+    </section>
 
-    <div id="featured"></div>
-    <div id="posts" class="post-list">
-      <div class="loading">記事を読み込んでいます…</div>
-    </div>
-    <div id="emptyState" class="empty" hidden>該当する記事がありません。</div>
-  </section>
+    <section class="marquee" aria-label="AI topics">
+      <div class="marquee-track">
+        <span>CHATGPT</span><i></i><span>CLAUDE CODE</span><i></i><span>GEMINI</span><i></i>
+        <span>CURSOR</span><i></i><span>IMAGE AI</span><i></i><span>VIDEO AI</span><i></i>
+        <span>AI AGENTS</span><i></i><span>RESEARCH</span><i></i><span>CHATGPT</span><i></i>
+        <span>CLAUDE CODE</span><i></i><span>GEMINI</span><i></i><span>CURSOR</span><i></i>
+        <span>IMAGE AI</span><i></i><span>VIDEO AI</span><i></i><span>AI AGENTS</span><i></i>
+      </div>
+    </section>
 
-  <section class="editor wrap">
-    <div>
-      <p class="eyebrow">EDITOR</p>
-      <h2>AIエンジニア MAIMAI</h2>
-    </div>
-    <p>公式情報を読み込み、「結局どう使うか」まで整理します。</p>
-    <a href="./about.html">運営者について →</a>
-  </section>
-</main>
+    <section class="explore wrap reveal">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">EXPLORE</p>
+          <h2>気になるAIから読む</h2>
+        </div>
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m21 21-4.35-4.35m1.35-5.65a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+          </svg>
+          <input id="searchInput" type="search" placeholder="記事を検索">
+        </label>
+      </div>
 
-<footer>
-  <div class="wrap footer-inner">
-    <span>MAIMAI AI NEWS</span>
-    <span>当サイトはアフィリエイト広告を利用する場合があります。</span>
-  </div>
-</footer>
+      <div class="topic-tabs" id="topicFilters">
+        <button class="topic-tab active" data-topic="all" type="button"><span>All</span>すべて</button>
+        <button class="topic-tab" data-topic="chatgpt" type="button"><span>01</span>ChatGPT</button>
+        <button class="topic-tab" data-topic="claude" type="button"><span>02</span>Claude Code</button>
+        <button class="topic-tab" data-topic="gemini" type="button"><span>03</span>Gemini</button>
+        <button class="topic-tab" data-topic="copilot" type="button"><span>04</span>Copilot</button>
+        <button class="topic-tab" data-topic="coding" type="button"><span>05</span>コーディングAI</button>
+        <button class="topic-tab" data-topic="image" type="button"><span>06</span>画像AI</button>
+        <button class="topic-tab" data-topic="video" type="button"><span>07</span>動画AI</button>
+        <button class="topic-tab" data-topic="voice" type="button"><span>08</span>音声・音楽</button>
+        <button class="topic-tab" data-topic="builder" type="button"><span>09</span>AIアプリ開発</button>
+        <button class="topic-tab" data-topic="news" type="button"><span>10</span>最新ニュース</button>
+      </div>
+    </section>
+
+    <section id="articles" class="articles wrap">
+      <div class="section-heading reveal">
+        <div>
+          <p class="kicker">CURATED ARTICLES</p>
+          <h2 id="resultTitle">すべての記事</h2>
+        </div>
+        <p class="result-count"><strong id="resultCount">—</strong> articles</p>
+      </div>
+
+      <div id="featured" class="featured-slot reveal"></div>
+      <div id="posts" class="article-grid">
+        <div class="loading-state"><span></span>記事を読み込んでいます</div>
+      </div>
+      <div id="emptyState" class="empty-state" hidden>
+        <p>該当する記事がありません。</p>
+      </div>
+    </section>
+
+    <section class="editor-band wrap reveal">
+      <div class="editor-copy">
+        <p class="kicker">EDITOR</p>
+        <h2>AIエンジニア MAIMAI</h2>
+      </div>
+      <p>ニュースを並べるだけではなく、<strong>使う価値・コスト・弱点</strong>まで整理します。</p>
+      <a href="./about.html">Editorial Policy →</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div><strong>MAIMAI AI NEWS</strong><span>GENERATIVE AI, EXPLAINED.</span></div>
+      <div><span>Affiliate disclosure applies.</span><span>© MAIMAI AI NEWS</span></div>
+    </div>
+  </footer>
 
 <script>
 (async function(){
-  const postsEl = document.getElementById('posts');
-  const featuredEl = document.getElementById('featured');
-  const emptyEl = document.getElementById('emptyState');
-  const countEl = document.getElementById('resultCount');
-  const totalEl = document.getElementById('totalCount');
-  const titleEl = document.getElementById('resultTitle');
-  const input = document.getElementById('searchInput');
-  const chips = [...document.querySelectorAll('.chip')];
+  const postsEl=document.getElementById('posts');
+  const featuredEl=document.getElementById('featured');
+  const emptyEl=document.getElementById('emptyState');
+  const countEl=document.getElementById('resultCount');
+  const totalEl=document.getElementById('totalCount');
+  const titleEl=document.getElementById('resultTitle');
+  const searchInput=document.getElementById('searchInput');
+  const tabs=[...document.querySelectorAll('.topic-tab')];
 
-  const topics = {
-    all:{label:'すべての記事', test:()=>true},
-    chatgpt:{label:'ChatGPT', test:p=>/^chatgpt|gpt-6/i.test(p.title||'') || /openai/i.test(p.company||'')},
-    claude:{label:'Claude / Claude Code', test:p=>/^claude/i.test(p.title||'') || /anthropic/i.test(p.company||'')},
-    gemini:{label:'Gemini', test:p=>/^gemini/i.test(p.title||'') || /google/i.test(p.company||'') && /gemini/i.test(p.title||'')},
-    copilot:{label:'Copilot', test:p=>/copilot/i.test((p.title||'')+' '+(p.company||''))},
-    coding:{label:'コーディングAI', test:p=>/AIコーディング/.test(p.category||'') || /claude code|cursor|github copilot|replit agent|codex/i.test(p.title||'')},
-    image:{label:'画像AI', test:p=>/AI画像|AIデザイン/.test(p.category||'')},
-    video:{label:'動画AI', test:p=>/AI動画/.test(p.category||'')},
-    voice:{label:'音声・音楽AI', test:p=>/AI音声|AI音楽/.test(p.category||'')},
-    builder:{label:'AIアプリ開発', test:p=>(p.category||'')==='AIアプリ開発'},
-    news:{label:'最新ニュース', test:p=>(p.category||'')==='AIニュース'}
+  const topics={
+    all:{label:'すべての記事',test:()=>true},
+    chatgpt:{label:'ChatGPT',test:p=>/^(chatgpt|gpt-6)/i.test(p.title||'')||/openai/i.test(p.company||'')},
+    claude:{label:'Claude / Claude Code',test:p=>/^claude/i.test(p.title||'')||/anthropic/i.test(p.company||'')},
+    gemini:{label:'Gemini',test:p=>/^gemini/i.test(p.title||'')||(/google/i.test(p.company||'')&&/gemini/i.test(p.title||''))},
+    copilot:{label:'Copilot',test:p=>/copilot/i.test((p.title||'')+' '+(p.company||''))},
+    coding:{label:'コーディングAI',test:p=>/AIコーディング/.test(p.category||'')||/claude code|cursor|github copilot|replit agent|codex/i.test(p.title||'')},
+    image:{label:'画像AI',test:p=>/AI画像|AIデザイン/.test(p.category||'')},
+    video:{label:'動画AI',test:p=>/AI動画/.test(p.category||'')},
+    voice:{label:'音声・音楽AI',test:p=>/AI音声|AI音楽/.test(p.category||'')},
+    builder:{label:'AIアプリ開発',test:p=>(p.category||'')==='AIアプリ開発'},
+    news:{label:'最新ニュース',test:p=>(p.category||'')==='AIニュース'}
   };
 
-  let posts=[], active='all';
+  let posts=[],active='all';
 
   try{
-    const r = await fetch('./data/posts.json',{cache:'no-store'});
+    const r=await fetch('./data/posts.json',{cache:'no-store'});
     if(!r.ok) throw new Error('posts.json not found');
-    const raw = await r.json();
-    posts = Array.isArray(raw) ? raw : [raw];
-    posts.sort((a,b)=> String(b.date||'').localeCompare(String(a.date||'')) || Number(b.importance||0)-Number(a.importance||0));
-    totalEl.textContent = posts.length;
+    const raw=await r.json();
+    posts=Array.isArray(raw)?raw:(raw?[raw]:[]);
+    posts.sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||Number(b.importance||0)-Number(a.importance||0));
+    totalEl.textContent=posts.length;
     render();
   }catch(e){
-    postsEl.innerHTML = '<div class="empty">記事一覧を読み込めませんでした。</div>';
+    postsEl.innerHTML='<div class="loading-state">記事一覧を読み込めませんでした。</div>';
     console.error(e);
   }
 
-  chips.forEach(c=>c.addEventListener('click',()=>{
-    active = c.dataset.topic;
-    chips.forEach(x=>x.classList.toggle('active',x===c));
-    render();
+  tabs.forEach(tab=>tab.addEventListener('click',()=>{
+    active=tab.dataset.topic;
+    tabs.forEach(x=>x.classList.toggle('active',x===tab));
+    render(true);
   }));
-  input.addEventListener('input',render);
 
-  function render(){
-    const q=input.value.trim().toLowerCase();
+  searchInput.addEventListener('input',()=>render(false));
+
+  function render(animate){
+    const q=searchInput.value.trim().toLowerCase();
     const topic=topics[active]||topics.all;
     const filtered=posts.filter(p=>{
       const text=[p.title,p.company,p.category,p.author].filter(Boolean).join(' ').toLowerCase();
-      return topic.test(p) && (!q || text.includes(q));
+      return topic.test(p)&&(!q||text.includes(q));
     });
+
     countEl.textContent=filtered.length;
-    titleEl.textContent=q ? `「${input.value.trim()}」の検索結果` : topic.label;
+    titleEl.textContent=q?`「${searchInput.value.trim()}」の検索結果`:topic.label;
     emptyEl.hidden=filtered.length!==0;
-    if(!filtered.length){featuredEl.innerHTML='';postsEl.innerHTML='';return;}
+
+    if(!filtered.length){
+      featuredEl.innerHTML='';
+      postsEl.innerHTML='';
+      return;
+    }
+
     const [first,...rest]=filtered;
-    featuredEl.innerHTML=featured(first);
-    postsEl.innerHTML=rest.map(card).join('');
+    if(animate){
+      featuredEl.classList.add('switching');
+      postsEl.classList.add('switching');
+      setTimeout(()=>{
+        featuredEl.innerHTML=featured(first);
+        postsEl.innerHTML=rest.map(card).join('');
+        featuredEl.classList.remove('switching');
+        postsEl.classList.remove('switching');
+      },140);
+    }else{
+      featuredEl.innerHTML=featured(first);
+      postsEl.innerHTML=rest.map(card).join('');
+    }
   }
 
   function featured(p){
-    return `<article class="featured">
-      <div class="featured-meta">
-        <span>${e(p.date||'')}</span>
-        ${p.category?`<span>${e(p.category)}</span>`:''}
-        ${p.company?`<span>${e(p.company)}</span>`:''}
+    return `<article class="featured-card">
+      <div class="featured-accent" data-company="${tone(p)}">
+        <div class="accent-grid"></div>
+        <span class="featured-index">${e(p.company||'AI')}</span>
+        <strong>${e(p.importance||'—')}</strong>
+        <small>IMPORTANCE</small>
       </div>
-      <h3><a href="${u(p.url)}">${e(p.title)}</a></h3>
-      <div class="featured-bottom">
-        <span>重要度 ${e(p.importance||'—')} / 100</span>
-        <a href="${u(p.url)}">読む →</a>
+      <div class="featured-content">
+        <div class="meta-line">
+          <span>${e(p.date||'')}</span>
+          ${p.category?`<span>${e(p.category)}</span>`:''}
+          ${p.company?`<span>${e(p.company)}</span>`:''}
+        </div>
+        <h3><a href="${u(p.url)}">${e(p.title)}</a></h3>
+        <p>重要ポイント・料金・競合差・実務での使い方まで整理しています。</p>
+        <a class="read-more" href="${u(p.url)}">READ ARTICLE <span>↗</span></a>
       </div>
     </article>`;
   }
 
   function card(p){
-    return `<article class="post-row">
-      <div class="post-meta">
+    return `<article class="article-card" data-company="${tone(p)}">
+      <div class="card-accent"></div>
+      <div class="card-meta">
         <span>${e(p.date||'')}</span>
         <span>${e(p.company||'')}</span>
       </div>
       <h3><a href="${u(p.url)}">${e(p.title)}</a></h3>
-      <div class="post-side">
-        <span>${e(p.category||'')}</span>
-        <a href="${u(p.url)}">→</a>
+      <div class="card-bottom">
+        <span>${e(p.category||'AI')}</span>
+        <span class="importance-score">${e(p.importance||'—')}</span>
+        <a href="${u(p.url)}" aria-label="記事を読む">↗</a>
       </div>
     </article>`;
   }
 
+  function tone(p){
+    const t=((p.company||'')+' '+(p.title||'')+' '+(p.category||'')).toLowerCase();
+    if(/openai|chatgpt|gpt/.test(t))return'openai';
+    if(/anthropic|claude/.test(t))return'anthropic';
+    if(/google|gemini|notebooklm/.test(t))return'google';
+    if(/microsoft|copilot/.test(t))return'microsoft';
+    if(/image|画像|midjourney|firefly|canva|ideogram|leonardo/.test(t))return'image';
+    if(/video|動画|runway|heygen|synthesia|pika/.test(t))return'video';
+    if(/audio|音声|音楽|suno|udio|elevenlabs/.test(t))return'audio';
+    return'default';
+  }
+
   function e(v){return String(v).replace(/[&<>"']/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[s]))}
   function u(v){return encodeURI(String(v||'#'))}
+
+  const observer=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}
+    });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 })();
 </script>
 </body>

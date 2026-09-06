@@ -3,44 +3,84 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f4f6">
   <title>{{ page.title | escape }} | MAIMAI AI NEWS</title>
   <meta name="description" content="{{ page.title | escape }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
-<body>
+<body class="article-page">
+<div class="reading-progress" id="readingProgress"></div>
+
 <header class="site-header">
   <div class="wrap nav">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <span class="brand-mark">M</span><span>MAIMAI AI NEWS</span>
+      <span class="brand-line"></span>
+      <span class="brand-main">MAIMAI</span>
+      <span class="brand-sub">AI NEWS</span>
     </a>
-    <nav>
-      <a href="{{ '/' | relative_url }}">記事</a>
-      <a href="{{ '/about.html' | relative_url }}">運営者</a>
+    <nav class="nav-links">
+      <a href="{{ '/' | relative_url }}">Articles</a>
+      <a href="{{ '/about.html' | relative_url }}">About</a>
     </nav>
   </div>
 </header>
 
-<main class="article-shell">
-  <div class="article-topline">
-    <a class="back-link" href="{{ '/' | relative_url }}">← 記事一覧へ</a>
+<main class="article-layout">
+  <div class="article-main">
+    <div class="article-topline"><a class="back-link" href="{{ '/' | relative_url }}">← 記事一覧へ</a></div>
+    <article class="article" id="articleBody">
+      <div class="article-meta">
+        {% if page.date %}<span>{{ page.date | date: "%Y-%m-%d" }}</span>{% endif %}
+        {% if page.company %}<span>{{ page.company }}</span>{% endif %}
+        {% if page.category %}<span>{{ page.category }}</span>{% endif %}
+        {% if page.importance %}<span>重要度 {{ page.importance }} / 100</span>{% endif %}
+      </div>
+      <p class="article-author">{{ page.author | default: "AIエンジニア MAIMAI" }}</p>
+      {{ content }}
+    </article>
   </div>
-  <article class="article">
-    <div class="article-meta">
-      {% if page.date %}<span>{{ page.date | date: "%Y-%m-%d" }}</span>{% endif %}
-      {% if page.company %}<span>{{ page.company }}</span>{% endif %}
-      {% if page.category %}<span>{{ page.category }}</span>{% endif %}
-      {% if page.importance %}<span>重要度 {{ page.importance }} / 100</span>{% endif %}
-    </div>
-    <p class="article-author">{{ page.author | default: "AIエンジニア MAIMAI" }}</p>
-    {{ content }}
-  </article>
+
+  <aside class="article-toc" id="articleToc">
+    <p>CONTENTS</p>
+  </aside>
 </main>
 
 <footer>
   <div class="wrap footer-inner">
-    <span>MAIMAI AI NEWS</span>
-    <span>© MAIMAI AI NEWS</span>
+    <div><strong>MAIMAI AI NEWS</strong><span>GENERATIVE AI, EXPLAINED.</span></div>
+    <div><span>© MAIMAI AI NEWS</span></div>
   </div>
 </footer>
+
+<script>
+(function(){
+  const progress=document.getElementById('readingProgress');
+  const toc=document.getElementById('articleToc');
+  const headings=[...document.querySelectorAll('#articleBody h2')];
+
+  headings.forEach((h,i)=>{
+    if(!h.id)h.id='section-'+(i+1);
+    const a=document.createElement('a');
+    a.href='#'+h.id;
+    a.textContent=h.textContent;
+    toc.appendChild(a);
+  });
+
+  const links=[...toc.querySelectorAll('a')];
+
+  window.addEventListener('scroll',()=>{
+    const doc=document.documentElement;
+    const max=doc.scrollHeight-doc.clientHeight;
+    progress.style.width=(max?window.scrollY/max*100:0)+'%';
+
+    let current=0;
+    headings.forEach((h,i)=>{if(h.getBoundingClientRect().top<150)current=i});
+    links.forEach((a,i)=>a.classList.toggle('active',i===current));
+  },{passive:true});
+})();
+</script>
 </body>
 </html>
