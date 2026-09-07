@@ -306,6 +306,15 @@
         "url":  "content/posts/2026-09-03_nvidia-acquire-hugging-face.html"
     },
     {
+        "title":  "Claude Commerce Agents公開｜買い物AIと店舗運営AIの設計図をオープンソース化。EC企業への実務インパクト",
+        "date":  "2026-09-02",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Anthropic",
+        "importance":  "92",
+        "url":  "content/posts/2026-09-02_claude-commerce-agents.html"
+    },
+    {
         "title":  "Gemini 3.8 Flash登場｜3.7と同価格でコーディング・AIエージェント性能を強化。APIと日本ユーザーへの影響",
         "date":  "2026-09-02",
         "author":  "AIエンジニア MAIMAI",
@@ -331,5 +340,14 @@
         "company":  "Microsoft",
         "importance":  "94",
         "url":  "content/posts/2026-09-01_copilot-studio-human-approval.html"
+    },
+    {
+        "title":  "Geminiの動画解析が「全部見る」方式から進化｜Agentic Video Understandingでトークン最大88%削減、長尺動画AIのコスト構造が変わる",
+        "date":  "2026-09-01",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Google / Google DeepMind",
+        "importance":  "94",
+        "url":  "content/posts/2026-09-01_gemini-agentic-video-understanding.html"
     }
 ]
