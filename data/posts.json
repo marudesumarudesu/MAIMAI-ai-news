@@ -376,5 +376,14 @@
         "company":  "Google / Google DeepMind",
         "importance":  "94",
         "url":  "content/posts/2026-09-01_gemini-agentic-video-understanding.html"
+    },
+    {
+        "title":  "Salesforce×Anthropic「Claudeforce」発表｜ClaudeからCRMを直接操作、37の営業スキルとMCP権限設計を実務目線で解説",
+        "date":  "2026-08-26",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Anthropic / Salesforce",
+        "importance":  "93",
+        "url":  "content/posts/2026-08-26_claudeforce-salesforce-anthropic.html"
     }
 ]
