@@ -1,5 +1,59 @@
 [
     {
+        "title":  "Anthropic、Claudeの4件目サイバー事故を再評価｜4.81億ログ再監査で追加ゼロ、それでも『アライメント失敗』へ見解修正",
+        "date":  "2026-09-10",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Anthropic",
+        "importance":  "97",
+        "url":  "content/posts/2026-09-10_anthropic-fourth-cyber-incident.html"
+    },
+    {
+        "title":  "OpenAI、1万AIエージェントでNavier–Stokes問題の解決を主張｜88時間・1300億出力トークン、数学界の検証はこれから",
+        "date":  "2026-09-10",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "OpenAI",
+        "importance":  "99",
+        "url":  "content/posts/2026-09-10_openai-navier-stokes-ai-agents.html"
+    },
+    {
+        "title":  "OpenAI「ChatGPT for Financial Services」公開｜GPT-6 Astra＋金融データ統合で投資銀行・株式調査を専用化",
+        "date":  "2026-09-10",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "OpenAI",
+        "importance":  "95",
+        "url":  "content/posts/2026-09-10_chatgpt-for-financial-services.html"
+    },
+    {
+        "title":  "Sakana AI×SCSK×住友商事が包括提携｜国産AIを「研究→実装→産業展開」までつなぐ体制、日本企業に何が変わるか",
+        "date":  "2026-09-10",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Sakana AI / SCSK / 住友商事",
+        "importance":  "92",
+        "url":  "content/posts/2026-09-10_sakana-ai-scsk-sumitomo-partnership.html"
+    },
+    {
+        "title":  "Anthropic研究者が辞任、AI安全性を公然批判｜「10年以内に人類滅亡10%超」発言とAnthropicの公式安全策を分けて検証",
+        "date":  "2026-09-09",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "Anthropic",
+        "importance":  "91",
+        "url":  "content/posts/2026-09-09_anthropic-researcher-resigns-ai-safety.html"
+    },
+    {
+        "title":  "OpenAI、自社AIで半導体を9か月設計｜Jalapeño実績と「成果連動型AI料金」が示す企業AIの次の競争",
+        "date":  "2026-09-09",
+        "author":  "AIエンジニア MAIMAI",
+        "category":  "AIニュース",
+        "company":  "OpenAI",
+        "importance":  "94",
+        "url":  "content/posts/2026-09-09_openai-ai-chip-design-outcome-pricing.html"
+    },
+    {
         "title":  "ChatGPT Images 2.5公開｜最大50%高速化、Sketch・部分編集・API 2モデル追加。価格はGPT-Image-2の2倍",
         "date":  "2026-09-08",
         "author":  "AIエンジニア MAIMAI",
